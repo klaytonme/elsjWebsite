@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    top: 0;
+
+    background-color: rgb(208, 255, 208);
+
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-color: green;
+}
+
+.nav {
+    display: flex;
+    padding-top: 5px;
+    margin-left: 10px;
+
+    flex-direction: row;
+}
+
+
+.nav a {
+    display: flex;
+    padding: 10px 20px;
+    margin-left: -5px;
+
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 0 0;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a.home {
+    background-color: rgb(187, 187, 187);
+}
+.nav a.home[data-active] {
+    background-color: rgb(87, 87, 87);
+}
+
+.nav a.bio {
+    background-color: rgb(146, 197, 186);
+}
+.nav a.bio[data-active] {
+    background-color: rgb(40, 139, 151);
+}
+
+.nav a.ecol {
+    background-color: rgb(126, 199, 228);
+}
+.nav a.ecol[data-active] {
+    background-color: rgb(10, 84, 163);
+}
+
+.nav a.engr {
+    background-color: rgb(243, 110, 55);
+}
+.nav a.engr[data-active] {
+    background-color: rgb(220, 54, 31);
+}
+
+.nav a[data-active] {
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}

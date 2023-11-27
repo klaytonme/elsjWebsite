@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(187, 187, 187);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    min-width: 400px;
+
+    background-color: #eee;
+}

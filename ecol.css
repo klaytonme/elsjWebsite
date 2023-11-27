@@ -1,0 +1,106 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(241, 237, 211);
+    
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    min-width: 400px;
+    max-width: 1200px;
+    padding: 10px;
+
+    background-color: white;
+
+    overflow-y: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.contentInner {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.contentInner > img {
+    height: 100%;
+    width: 100%;
+}
+
+
+#video {
+    position: absolute;
+    display: flex;
+    top: 21%;
+    left: 25.25%;
+    width: 45%;
+    height: 19%;
+}
+
+
+.downloadContainer {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+
+    border: 1px black solid;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#download1 {
+    top: 47.5%;
+    left: 25%;
+    height: 18.75%;
+    width: 45%;
+}
+
+#download2 {
+    top: 75.5%;
+    left: 25%;
+    height: 18.75%;
+    width: 45%;
+}
+
+
+.worksheetDownload {
+    display: flex;
+    max-width: 300px;
+    height: 50px;
+    width: 300px;
+    margin: 10px 0 0 0;
+    
+    background-color: rgb(242, 238, 214);
+    border-radius: 5px;
+
+    flex-direction: row;
+    align-items: center;
+}
+.worksheetDownload:hover {
+    cursor: pointer;
+}
+
+.worksheetDownload img {
+    height: 60%;
+    margin: 0 10px 0 10px;
+}
+
+.worksheetDownload p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
