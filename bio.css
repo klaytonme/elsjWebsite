@@ -30,7 +30,7 @@
     position: absolute;
 }
 
-#video1 {
+#prelabVideo {
     display: flex;
     top: 63%;
     left: 6.5%;
@@ -38,7 +38,15 @@
     height: 19%;
 }
 
-#video2 {
+#labVideo {
+    display: flex;
+    top: 66%;
+    left: 31.5%;
+    width: 23%;
+    height: 19%;
+}
+
+#postlabVideo {
     display: flex;
     top: 36%;
     left: 46%;
@@ -50,7 +58,7 @@
 .worksheetDownload {
     display: flex;
     position: absolute;
-    height: 7%;
+    height: 4%;
     
     background-color: #ccc;
     border-radius: 5px;
@@ -62,17 +70,23 @@
     cursor: pointer;
 }
 
-#download1 {
-    top: 71%;
-    left: 32%;
-    max-width: 22%;
-    width: 22%;
+#downloadPrelab {
+    top: 82.5%;
+    left: 10.25%;
+    max-width: 16%;
+    width: 16%;
 }
-#download2 {
-    top: 45%;
-    left: 71.5%;
-    max-width: 18%;
-    width: 18%;
+#downloadLab {
+    top: 85.5%;
+    left: 35.75%;
+    max-width: 15%;
+    width: 15%;
+}
+#downloadPostlab {
+    top: 55.5%;
+    left: 50%;
+    max-width: 15.5%;
+    width: 15.5%;
 }
 
 .worksheetDownload img {
@@ -80,8 +94,10 @@
     margin: 0 10px 0 10px;
 }
 
-.worksheetDownload p {
+.worksheetDownload a {
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
+    color: black;
     margin: 0 10px 0 0;
 }
